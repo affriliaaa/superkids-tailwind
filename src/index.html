@@ -9,17 +9,17 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Catamaran:wght@100..900&display=swap" rel="stylesheet">
 </head>
-<body class="font-Catamaran">
+<body class="font-catamaran">
 
 <!-- SECTION HEADER -->
 
-    <section class="bg-purple py-8 px-32">
-        <div class="navbar mb-6">
+    <section class="bg-purple">
+        <div class="navbar mb-6 lg:px-32 lg:py-8 px-8 py-8">
             <div class="container">
-                <div class="content flex flex-row justify-between">
+                <div class="content flex justify-between">
                     <img src="images/logo.svg" alt="">
                     <nav>
-                        <ul class="flex sm:flex-row sm:justify-between max-sm:flex max-sm:flex-wrap gap-8 text-white text-center py-4 rounded-full">
+                        <ul class="flex lg:flex-row lg:justify-between gap-8 text-white text-center py-4 rounded-full flex-wrap">
                             <li><a class="px-4 py-4 rounded-full  hover:bg-[#CAC6FF]/10" href="#">About</a></li>
                             <li><a class="px-4 py-4 rounded-full  hover:bg-[#CAC6FF]/10" href="#">Programs</a></li>
                             <li><a class="px-4 py-4 rounded-full  hover:bg-[#CAC6FF]/10" href="#">Admission</a></li>
@@ -32,18 +32,20 @@
                 </div>
             </div>
         </div>
-        <div class="hero">
+        <div>
             <div class="container">
-                <div class="content flex flex-row">
-                    <div class="hero-left pt-20">
-                        <span class="badge inline-block py-2.5 px-5 bg-[#CAC6FF]/10 text-white rounded-full">Welcome to Superkids</span>
-                        <h1 class="text-7xl font-Mazzard text-white font-black">Be a Super parents for your superkids</h1>
-                        <p class="text-white mt-4 font-Lato">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit
-                        mollit. Exercitation veniam</p>
-                        <button class="bg-[#B2D93A] border-none py-4 px-10 rounded-full text-white mt-6">Enroll My Child</button>
+                <div class="lg:grid lg:grid-cols-12 sm:flex sm:flex-col lg:px-32 lg:py-8 px-8 py-8">
+                    <div class="lg:col-span-6 sm:col-span-12">
+                        <div>
+                            <span class="inline-block py-2.5 px-5 bg-[#CAC6FF]/10 text-white rounded-full">Welcome to Superkids</span>
+                            <h1 class="lg:text-7xl text-5xl font-mazzard text-white font-black">Be a Super parents for your superkids</h1>
+                            <p class="text-white text-xs mt-4 font-lato">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.
+                                Velit officia consequat duis enim velit mollit. Exercitation veniam</p>
+                            <button class="bg-[#B2D93A] border-none py-4 px-10 rounded-full text-white mt-6">Enroll My Child</button>
+                        </div>
                     </div>
-                    <div class="hero-right">
-                        <img class="sm:max-w-none xl:w-full" src="images/hero-header.svg" alt="">
+                    <div class="lg:col-span-6 sm:col-span-12">
+                        <img class="w-full" src="images/hero-header.svg" alt="">
                     </div>
                 </div>
             </div>
@@ -52,13 +54,13 @@
 
 <!-- SECTION BANNER FEATURE -->
 
-    <section class="sm:px-32 sm:py-14 max-sm:p-8">
+    <section class="lg:px-32 lg:py-14 px-8 py-8">
         <div class="container">
-            <div class="content bg-white sm:shadow-lg sm:rounded-3xl sm:px-20 sm:pt-10 sm:pb-10 xl:p-8">
+            <div class="content bg-white lg:shadow-lg rounded-3xl lg:px-20 lg:pt-10 px-8 py-8">
                 <div class="title  text-3xl mb-8">
                     <h3 class="text-3xl text-dark-blue font-black sm:text-left text-center"> What We Offer</h3>
                 </div>
-                <div class="icon-group sm:flex sm:flex-row sm:justify-between xl:flex xl:flex-wrap xl:justify-around xl:gap-8">
+                <div class="icon-group flex justify-around lg:flex-row flex-wrap gap-8 lg:gap-0">
                     <div class="group flex flex-col items-center mx-6">
                         <img src="images/ic-music.svg" alt="">
                         <p class="text-center mt-6">Music</p>
@@ -101,58 +103,58 @@
 
 <!-- SECTION BENEFITS -->
 
-    <section class="bg-[#FDFDFF] px-32 pb-36">
+    <section class="bg-[#FDFDFF] lg:px-32 lg:pb-36 px-8 py-8">
         <div class="container">
             <div class="content">
                 <div class="tagline">
                     <span class="inline-block bg-[#6ED2EF]/10 text-light-blue rounded-full py-2.5 px-5">Benefits</span>
-                    <div class="text-group flex flex-row justify-around">
-                        <h2 class="size-full text-5xl font-black text-dark-blue"><span class="text-light-blue">Why choose us</span> 
+                    <div class="text-group flex lg:flex-row flex-col justify-around">
+                        <h2 class="size-full text-5xl text-center lg:text-start font-black text-dark-blue"><span class="text-light-blue">Why choose us</span> 
                             <br>for your happier kids</h2>
                         <p class="size-full text-base font-normal text-[#878799]">Look into the eyes of a young child and see the sparkle and wonder. Develop these passions and watch the adult bloom into someone special. At Littledino Center, we work every day to build the foundations for amazing futures.</p>
                     </div>
                 </div>
                 <div class="benefits flex flex-wrap justify-around mt-20 gap-8">
-                    <div class="group flex flex-row size-128 rounded-3xl hover:shadow-md p-2 bg-white">
+                    <div class="group flex size-full lg:size-128 rounded-3xl hover:shadow-md p-2 bg-white">
                         <img src="images/ben-experience.svg" alt="">
                         <div class="text py-6 pl-4">
                             <h4 class="font-semibold text-dark-blue text-2xl">Experience Teacher</h4>
-                            <p class="text-[#878799] font-normal text-base font-Lato">Look into the eyes of a young child and see the sparkle</p>
+                            <p class="text-[#878799] font-normal text-base font-lato">Look into the eyes of a young child and see the sparkle</p>
                         </div>
                     </div>
-                    <div class="group flex flex-row size-128 rounded-3xl hover:shadow-md p-2 bg-white">
+                    <div class="group flex size-full lg:size-128 rounded-3xl hover:shadow-md p-2 bg-white">
                         <img src="images/ben-backpack.svg" alt="">
                         <div class="text py-6 pl-4">
                             <h4 class="font-semibold text-dark-blue text-2xl">Learning and skills</h4>
-                            <p class="text-[#878799] font-normal text-base font-Lato">Quality learning outcomes and skills development.</p>
+                            <p class="text-[#878799] font-normal text-base font-lato">Quality learning outcomes and skills development.</p>
                         </div>
                     </div>
-                    <div class="group flex flex-row size-128 rounded-3xl hover:shadow-md p-2 bg-white">
+                    <div class="group flex size-full lg:size-128 rounded-3xl hover:shadow-md p-2 bg-white">
                         <img src="images/ben-emergencies.svg" alt="">
                         <div class="text py-6 pl-4">
                             <h4 class="font-semibold text-dark-blue text-2xl">Emergencies Context</h4>
-                            <p class="text-[#878799] font-normal text-base font-Lato">Improved learning and protection for children in</p>
+                            <p class="text-[#878799] font-normal text-base font-lato">Improved learning and protection for children in</p>
                         </div>
                     </div>
-                    <div class="group flex flex-row size-128 rounded-3xl hover:shadow-md p-2 bg-white">
+                    <div class="group flex flex-row size-full lg:size-128 rounded-3xl hover:shadow-md p-2 bg-white">
                         <img src="images/ben-physical-aspect.svg" alt="">
                         <div class="text py-6 pl-4">
                             <h4 class="font-semibold text-dark-blue text-2xl">Physical aspect</h4>
-                            <p class="text-[#878799] font-normal text-base font-Lato">A child goes through various physical development</p>
+                            <p class="text-[#878799] font-normal text-base font-lato">A child goes through various physical development</p>
                         </div>
                     </div>
-                    <div class="group flex flex-row size-128 rounded-3xl hover:shadow-md p-2 bg-white">
+                    <div class="group flex flex-row size-full lg:size-128 rounded-3xl hover:shadow-md p-2 bg-white">
                         <img src="images/ben-mental.svg" alt="">
                         <div class="text py-6 pl-4">
                             <h4 class="font-semibold text-dark-blue text-2xl">Mental aspect</h4>
-                            <p class="text-[#878799] font-normal text-base font-Lato">School is the foremost fountain of knowledge</p>
+                            <p class="text-[#878799] font-normal text-base font-lato">School is the foremost fountain of knowledge</p>
                         </div>
                     </div>
-                    <div class="group flex flex-row size-128 rounded-3xl hover:shadow-md p-2 bg-white">
+                    <div class="group flex flex-row size-full lg:size-128 rounded-3xl hover:shadow-md p-2 bg-white">
                         <img src="images/ben-social-aspect.svg" alt="">
                         <div class="text py-6 pl-4">
                             <h4 class="font-semibold text-dark-blue text-2xl">Social aspect</h4>
-                            <p class="text-[#878799] font-normal text-base font-Lato">School is the first avenue of socialising for a child</p>
+                            <p class="text-[#878799] font-normal text-base font-lato">School is the first avenue of socialising for a child</p>
                         </div>
                     </div>
                 </div>
@@ -162,13 +164,13 @@
 
 <!-- SECTION ABOUT US -->
 
-    <section class="py-18 px-32">
+    <section class="lg:py-18 lg:px-32 px-8 py-8">
         <div class="container">
-            <div class="content items-center flex flex-row justify-around">
-                <div class="left size-1/2">
+            <div class="content items-center flex lg:flex-row flex-col justify-around">
+                <div class="left lg:size-1/2">
                     <img src="images/img-about.svg" alt="">
                 </div>
-                <div class="right size-1/2">
+                <div class="right lg:size-1/2 size-full">
                     <span class="inline-block text-orange bg-[#FF7D56]/10 px-4 py-2 rounded-full">About Us</span>
                     <h2 class="font-black text-5xl text-dark-blue mb-4">Hey ! Here is A little about <span class="text-orange"> Our Storries</span></h2>
                     <p class="font-Lato text-base text-[#878799] mb-6">We are excited and pleased to introduce you to the wonderful, passionate and committed educators who are working at Skole Learning Centre. Please take a moment to meet “Our Family!” We invited each of them to describe why they love working with children</p>
@@ -180,9 +182,9 @@
 
 <!-- SECTION  BANNER COUNTER -->
 
-    <section class="bg-[#FDFDFF] px-32 py-24">
+    <section class="bg-[#FDFDFF] lg:px-32 lg:py-24 px-0 py-8">
         <div class="container">
-            <div class="content bg-dark-blue rounded-3xl flex flex-row justify-around py-22">
+            <div class="content bg-dark-blue lg:rounded-3xl flex lg:flex-row flex-col gap-8 lg:gap-0 justify-around py-22">
                 <div class="group flex flex-col items-center">
                     <img class="mb-6" src="images/counter.svg" alt="">
                     <h4 class="text-white font-semibold text-2xl">Total Groups</h4>
@@ -205,9 +207,9 @@
 
 <!-- SECTION KNOWLEDGE BASE -->
 
-    <section class="px-32 py-18">
+    <section class="lg:px-32 lg:py-18 px-8 py-8">
         <div class="container">
-            <div class="content items-center flex flex-row justify-between font-Catamaran">
+            <div class="content items-center flex lg:flex-row flex-col justify-between font-Catamaran">
                 <div class="left size-full">
                     <span class="inline-block bg-purple/10 text-purple py-2.5 px-5 rounded-full">Knowledge Base</span>
                     <h2 class="font-black text-5xl text-[#222F5E]">Why <span class="text-purple">Early Education</span> Matters</h2>
@@ -224,77 +226,77 @@
 
 <!--  SECTION MEMBER -->
 
-    <section class="px-32 bg-[#FDFDFF]">
+    <section class="lg:px-32 px-8 bg-[#FDFDFF]">
         <div class="container">
             <div class="content">
                 <div class="heading flex flex-col items-center text-center">
                     <span class="inline-block text-light-blue bg-light-blue/10 rounded-full px-5 py-2.5">Our Team Member</span>
                     <h2 class="text-dark-blue text-5xl font-Catamaran font-black">Meet with <span class="text-light-blue"> Our Best Trainer</span></h2>
-                    <ul class="size-3/4 flex items-center flex-row text-[#7A87A8] text-center justify-around bg-light-blue/10 rounded-full px-2.5 py-2.5">
+                    <ul class="lg:size-3/4 size-full flex items-center flex-col lg:flex-row text-[#7A87A8] text-center justify-around bg-light-blue/10 lg:rounded-full px-2.5 py-2.5">
                         <li class=" px-6 py-4"><a class="text-[#7A87A8] px-6 py-4 rounded-full  hover:bg-light-blue" href="#">All</a></li>
                         <li class=" px-6 py-4"><a class="text-[#7A87A8] px-6 py-4 rounded-full  hover:bg-light-blue" href="#">Library</a></li>
                         <li class=" px-6 py-4"><a class="text-[#7A87A8] px-6 py-4 rounded-full  hover:bg-light-blue" href="#">Active Learning</a></li>
                         <li class=" px-6 py-4"><a class="text-[#7A87A8] px-6 py-4 rounded-full  hover:bg-light-blue" href="#">Art and Music</a></li>
                     </ul>
                 </div>
-                <div class="trainer flex flex-wrap mt-20 gap-8">
-                    <div class="group flex flex-row size-100 gap-5">
+                <div class="trainer flex flex-wrap items-center mt-20 gap-8">
+                    <div class="group flex flex-row size-1/2 lg:size-100 gap-5">
                         <img src="images/darrel-steward.svg" alt="">
                         <div class="text px-4 py-5">
                             <h4 class="text-dark-blue text-2xl font-semibold">Darrel Steward</h4>
                             <p class="text-orange text-base">Literacy Teacher</p>
                         </div>
                     </div>
-                    <div class="group flex flex-row size-100 gap-5">
+                    <div class="group flex flex-row size-1/2 lg:size-100 gap-5">
                         <img src="images/anette-black.svg" alt="">
                         <div class="text px-4 py-5">
                             <h4 class="text-dark-blue text-2xl font-semibold">Anette Black</h4>
                             <p class="text-purple text-base">Active Learning Teacher</p>
                         </div>
                     </div>
-                    <div class="grou flex flex-row size-100 gap-5">
+                    <div class="grou flex flex-row size-1/2 lg:size-100 gap-5">
                         <img src="images/guy-hawkins.svg" alt="">
                         <div class="text px-4 py-5">
                             <h4 class="text-dark-blue text-2xl font-semibold">Guy Hawkins</h4>
                             <p class="text-light-blue text-base">Preschool Teach</p>
                         </div>
                     </div>
-                    <div class="group flex flex-row size-100 gap-5">
+                    <div class="group flex flex-row size-1/2 lg:size-100 gap-5">
                         <img src="images/jerome-bell.svg" alt="">
                         <div class="text px-4 py-5">
                             <h4 class="text-dark-blue text-2xl font-semibold">Jerome Bell</h4>
                             <p class="text-lime text-base">Art and Music Teacher</p>
                         </div>
                     </div>
-                    <div class="group flex flex-row size-100 gap-5">
+                    <div class="group flex flex-row size-1/2 lg:size-100 gap-5">
                         <img src="images/cameron-wiliamson.svg" alt="">
                         <div class="text px-4 py-5">
                             <h4 class="text-dark-blue text-2xl font-semibold">Cameron Wiliamson</h4>
                             <p class="text-orange">Literacy Teacher</p>
                         </div>
                     </div>
-                    <div class="group flex flex-row size-100 gap-5">
+                    <div class="group flex flex-row size-1/2 lg:size-100 gap-5">
                         <img src="images/jane-cooper.svg" alt="">
                         <div class="text px-4 py-5">
                             <h4 class="text-dark-blue text-2xl font-semibold">Jane Cooper</h4>
                             <p class="text-purple text-base">Active Learning Teacher</p>
                         </div>
                     </div>
-                    <div class="group flex flex-row size-100 gap-5">
+                    <div class="group flex flex-row size-1/2 lg:size-100 gap-5">
                         <img src="images/leslie-alexander.svg" alt="">
                         <div class="text px-4 py-5">
                             <h4 class="text-dark-blue text-2xl font-semibold">Leslie Alexander</h4>
                             <p class="text-lime text-base">Art and Music Teacher</p>
                         </div>
                     </div>
-                    <div class="group flex flex-row size-100 gap-5">
+                    <div class="group flex flex-row size-1/2 lg:size-100 gap-5">
                         <img src="images/kathryn-murphy.svg" alt="">
                         <div class="text px-4 py-5">
                             <h4 class="text-dark-blue text-2xl font-semibold">Kathryn Murphy</h4>
                             <p class="text-orange text-base">Literacy Teacher</p>
                         </div>
                     </div>
-                    <div class="group flex flex-row size-100 gap-5">
+                    <div class="group flex flex-row size-1/2 lg:size-100 gap-5">
                         <img src="images/esther-howard.svg" alt="">
                         <div class="text px-4 py-5">
                             <h4 class="text-dark-blue text-2xl font-semibold">Ester Howard</h4>
@@ -308,7 +310,7 @@
 
 <!-- SECTION TESTIMONIAL -->
 
-    <section class="bg-[#FDFDFF] px-32 py-32">
+    <section class="bg-[#FDFDFF] lg:px-32 lg:py-32 px-8 py-8">
         <div class="container">
             <div class="content">
                 <div class="title text-center">
@@ -316,7 +318,7 @@
                     <h2 class="text-dark-blue text-5xl font-black">What’s parent <span class="text-orange"> Say About Us</span></h2>
                 </div>
                 <div class="group flex flex-wrap gap-8 mt-20">
-                    <div class="frame size-100">
+                    <div class="frame size-full lg:size-100">
                         <div class="text relative before:content-quote before:absolute before:left-5 before:-top-[50px] after:content-vector-orange after:absolute after:left-5 after:bottom-0">
                             <p class=" text-white bg-orange rounded-3xl p-8">Vestibulum eu quam nec neque pellentesque efficitur id eget nisl. Proin porta est convallis lacus blandit pretium sed non enim.</p>
                         <div class="user flex flex-row justify-center mt-12">
@@ -328,7 +330,7 @@
                         </div>
                         </div>
                     </div>
-                    <div class="frame size-100">
+                    <div class="frame lg:size-100 size-full">
                         <div class="text relative before:content-quote before:absolute before:left-5 before:-top-[50px] after:content-vector-blue after:absolute after:left-5 after:bottom-0">
                             <p class=" text-white bg-light-blue rounded-3xl p-8">
                                 Vestibulum eu quam nec neque pellentesque efficitur id eget nisl. Proin porta est convallis lacus blandit pretium sed non enim.</p>
@@ -341,9 +343,9 @@
                             </div>
                         </div>
                     </div>
-                    <div class="frame size-100">
+                    <div class="frame lg:size-100 size-full">
                         <div class="text relative before:content-quote before:absolute before:left-5 before:-top-[50px] after:content-vector-yellow after:absolute after:w-[100px] after:h-[43] after:left-5 after:bottom-0">
-                            <p class=" text-white bg-yellow rounded-3xl p-8">
+                            <p class=" text-white bg-amber rounded-3xl p-8">
                                 Vestibulum eu quam nec neque pellentesque efficitur id eget nisl. Proin porta est convallis lacus blandit pretium sed non enim.</p>
                             <div class="user flex flex-row justify-center mt-12">
                                 <img src="images/testimonial.svg" alt="">
@@ -361,9 +363,9 @@
 
 <!-- SECTION BANNER ENROLL -->
 
-    <section class="p-26">
+    <section class="lg:p-26 py-8 px-0">
         <div class="container">
-            <div class="content flex flex-col items-center bg-dark-blue rounded-3xl px-16 py-22">
+            <div class="content flex flex-col items-center bg-dark-blue lg:rounded-3xl px-16 py-22">
                 <h2 class="text-white text-5xl font-black text-center mb-8">Enroll Your Child Now! 
                     <br>Call Us (302) 555-0107 or</h2>
                 <button class="items-center text-white font-bold py-4 px-10 bg-orange rounded-full">Enroll Online</button>
@@ -373,65 +375,65 @@
 
 <!-- SECTION BLOGS -->
 
-    <section class="bg-[#FDFDFF] px-32">
+    <section class="bg-[#FDFDFF] lg:px-32 p-8">
         <div class="container">
             <div class="content flex flex-col items-center">
                 <div class="title-content flex flex-col items-center">
                     <span class="inline-block text-purple bg-purple/10 rounded-full font-bold px-4 py-2">Blog</span>
-                    <h2 class="text-dark-blue text-5xl font-black">Our Latest <span class="text-purple">Articles</span></h2>
+                    <h2 class="text-dark-blue lg:text-left text-center text-5xl font-black">Our Latest <span class="text-purple">Articles</span></h2>
                 </div>
                 <div class="article-group">
-                    <div class="row-content flex flex-wrap gap-8">
-                        <div class="blog-content  size-110">
+                    <div class="row-content flex flex-wrap lg:justify-around gap-8">
+                        <div class="blog-content size-full lg:size-110">
                             <a href="#"><img class="size-full" src="images/blog-music.svg" alt=""></a>
                             <span class="inline-block bg-orange text-white py-1 px-4 rounded-full mt-4">Music</span>
                             <h4 class="font-semibold text-dark-blue text-xl my-4">The effect of honey on human health</h4>
                             <p class="text-base text-[#878799] ">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
                                 sint. Velit officia consequat duis enim.</p>
                         </div>
-                        <div class="blog-content size-110">
+                        <div class="blog-content size-full lg:size-110">
                             <a href="#"><img class="size-full" src="images/blog-fashion.svg" alt=""></a>
                             <span class="inline-block bg-amber text-white py-1 px-4 rounded-full mt-4">Fashion</span>
                             <h4 class="font-semibold text-dark-blue text-xl my-4">5 Surprising Benefits of Honey Milk</h4>
                             <p class="text-base text-[#878799] ">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
                                 sint. Velit officia consequat duis enim.</p>
                         </div>
-                        <div class="blog-content size-110">
+                        <div class="blog-content size-full lg:size-110">
                             <a href="#"><img class="size-full" src="images/blog-martial-art.svg" alt=""></a>
                             <span class="inline-block bg-light-blue text-white py-1 px-4 rounded-full mt-4">Martial Arts</span>
                             <h4 class="font-semibold text-dark-blue text-xl my-4">9 Surprising Benefits of Honey Milk</h4>
                             <p class="text-base text-[#878799] ">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
                                 sint. Velit officia consequat duis enim.</p>
                         </div>
-                        <div class="blog-content size-110">
+                        <div class="blog-content size-full lg:size-110">
                             <a href="#"><img class="size-full" src="images/blog-sport.svg" alt=""></a>
                             <span class="inline-block bg-lime text-white py-1 px-4 rounded-full mt-4">Sports</span>
                             <h4 class="font-semibold text-dark-blue text-xl my-4">Health Benefits of Honey and Milk</h4>
                             <p class="text-base text-[#878799] ">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
                                 sint. Velit officia consequat duis enim.</p>
                         </div>
-                        <div class="blog-content size-110">
+                        <div class="blog-content size-full lg:size-110">
                             <a href="#"><img class="size-full" src="images/blog-craft.svg" alt=""></a>
                             <span class="inline-block bg-purple text-white py-1 px-4 rounded-full mt-4">Craft</span>
                             <h4 class="font-semibold text-dark-blue text-xl my-4">The effect of honey on human health</h4>
                             <p class="text-base text-[#878799] ">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
                                 sint. Velit officia consequat duis enim.</p>
                         </div>
-                        <div class="blog-content size-110">
+                        <div class="blog-content size-full lg:size-110">
                             <a href="#"><img class="size-full" src="images/blog-health.svg" alt=""></a>
                             <span class="inline-block bg-light-blue text-white py-1 px-4 rounded-full mt-4">Health</span>
                             <h4 class="font-semibold text-dark-blue text-xl my-4">5 Surprising Benefits of Honey Milk</h4>
                             <p class="text-base text-[#878799] ">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
                                 sint. Velit officia consequat duis enim.</p>
                         </div>
-                        <div class="blog-content size-110">
+                        <div class="blog-content size-full lg:size-110">
                             <a href="#"><img class="size-full" src="images/blog-food.svg" alt=""></a>
                             <span class="inline-block bg-blue text-white py-1 px-4 rounded-full mt-4">Food</span>
                             <h4 class="font-semibold text-dark-blue text-xl my-4">9 Surprising Benefits of Honey Milk</h4>
                             <p class="text-base text-[#878799] ">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
                                 sint. Velit officia consequat duis enim.</p>
                         </div>
-                        <div class="blog-content size-110">
+                        <div class="blog-content size-full lg:size-110">
                             <a href="#"><img class="size-full" src="images/blog-education.svg" alt=""></a>
                             <span class="inline-block bg-blue text-white py-1 px-4 rounded-full mt-4">Education</span>
                             <h4 class="font-semibold text-dark-blue text-xl my-4">Health Benefits of Honey and Milk</h4>
@@ -439,7 +441,7 @@
                                 sint. Velit officia consequat duis enim.</p>
                         </div>
                     </div>
-                    <div class="button flex flex-col items-center mt-8">
+                    <div class="button flex flex-col items-center mt-16">
                         <button class="bg-transparent border border-blue rounded-full text-blue px-10 py-4">View
                             More</button>
                     </div>
@@ -450,14 +452,14 @@
 
  <!-- FOOTER -->
 
-    <footer class="py-14 px-32 bg-[#FDFDFF]">
+    <footer class="px-8 py-8 lg:py-14 lg:px-32 bg-[#FDFDFF]">
         <div class="container">
-            <div class="content flex flex-row justify-around gap-20">
-                <div class="heading  size-128">
+            <div class="content flex lg:flex-row flex-col justify-around gap-20">
+                <div class="heading  lg:size-128">
                     <img src="images/logo-2.svg" alt="">
                     <p class="text-base text-[#878799]">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
                 </div>
-                <div class="widget size-110">
+                <div class="widget lg:size-110">
                     <h3 class="text-dark-blue font-semibold text-2xl mb-2">Home</h3>
                     <ul>
                         <li class="mb-2"><a class="text-[#878799]" href="#">Home</a></li>
@@ -467,7 +469,7 @@
                         <li class="mb-2"><a class="text-[#878799]" href="#">Pricing</a></li>
                     </ul>
                 </div>
-                <div class="widget size-110">
+                <div class="widget lg:size-110">
                     <h3 class="text-dark-blue font-semibold text-2xl mb-2">Services</h3>
                     <ul>
                         <li class="mb-2"><a class="text-[#878799]" href="#">Homecare</a></li>
@@ -475,7 +477,7 @@
                         <li class="mb-2"><a class="text-[#878799]" href="#">Kidsplay</a></li>
                     </ul>
                 </div>
-                <div class="widget size-110">
+                <div class="widget lg:size-110">
                     <h3 class="text-dark-blue font-semibold text-2xl mb-2">About</h3>
                     <ul>
                         <li class="mb-2"><a class="text-[#878799]" href="#">Company</a></li>
@@ -483,7 +485,7 @@
                         <li class="mb-2"><a class="text-[#878799]" href="#">Terms And Conditions</a></li>
                     </ul>
                 </div>
-                <div class="widget size-110">
+                <div class="widget lg:size-110">
                     <h3 class="text-dark-blue font-semibold text-2xl mb-2">Social Media</h3>
                     <ul>
                         <li class="mb-2"><a class="text-[#878799]" href="#">Facebook</a></li>

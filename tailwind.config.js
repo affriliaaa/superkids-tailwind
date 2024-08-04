@@ -5,18 +5,17 @@ module.exports = {
     container: {
       center: true,
     },
-    fontSize: {
-        '7xl': '58px',
+    extend: {
+      fontFamily: {
+        catamaran: ['"Catamaran"', 'sans-serif'],
+        lato: ['"Lato"', 'sans-serif'],
+        mazzard: ['"Mazzard"', 'sans-serif'],
+      },
+      fontSize: {
+        '7xl': '55px',
         '3xl': '32px',
         '5xl': '48px',
         '2xl': '21px',
-        'base': '14px',
-      },
-    extend: {
-      fontFamily: {
-        customFont: ['"Catamaran"', 'sans-serif'],
-        customFont: ['"Lato"', 'sans-serif'],
-        customFont: ['"Mazzard"', 'sans-serif'],
       },
       boxShadow: {
         '3xl': '0 35px 60px -15px rgba(0, 0, 0, 0.3)',
@@ -24,7 +23,7 @@ module.exports = {
       size: {
         '128': '30%',
         '100': '31%',
-        '110': '15%',
+        '110': '20%',
       },
       padding: {
         '18': '75px',
@@ -37,15 +36,14 @@ module.exports = {
         'purple': '#6100C1',
         'light-blue': '#6ED2EF',
         'lime': '#B2D93A',
-        'yellow': '#FDCF3F',
         'amber': '#FDCF3F',
         'blue': '#4F94FB',
       },
       content: {
-        'quote': 'url("../src/images/quote.svg")',
-        'vector-blue': 'url("../src/images/vector-blue.svg")',
-        'vector-orange': 'url("../src/images/vector-orange.svg")',
-        'vector-yellow': 'url("../src/images/vector-yellow.svg")',
+        'quote': 'url("src/images/quote.svg")',
+        'vector-blue': 'url("src/images/vector-blue.svg")',
+        'vector-orange': 'url("src/images/vector-orange.svg")',
+        'vector-yellow': 'url("src/images/vector-yellow.svg")',
       },
     },
   },
